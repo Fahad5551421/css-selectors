@@ -1,0 +1,52 @@
+/* UNIVERSAL SELECTOR */
+/*
+*{
+    color: navy;
+    padding: 1%;
+    margin: 2%;
+    width: 75%;
+    height: 45%;
+    text-align: center;
+}
+*/
+/* TYPE SELECTOR */
+/* SINGLE */
+/* span{
+color: aqua;
+}*/
+
+/* MULTIPLE */
+
+/* h1,span,div{
+color: brown;
+} */
+
+/* Class Sectors */
+/* .senior{
+    color: blueviolet;
+} */
+
+/* ID Selector */
+/* #junior{
+    color: yellowgreen;
+} */
+
+/* Child Selector */
+/* span > p{
+    color: chartreuse;
+} */
+
+/* Descendent Selector */
+/* div p{
+    color: tomato;
+} */
+
+/* Adjacent Sibling Selector */
+/* h1+p{
+    color: red;
+} */
+
+/* General Sibling Selector */
+h1~p{
+    color: chocolate;
+}
